@@ -1,5 +1,7 @@
 import { bulb, menu } from '../assets'
 import { chair4, chair5, chair3, chair2, couch, bed } from '../assets'
+import { furn1, furn2, furn3, furn4, furn5, furn6 } from '../assets'
+import { product1, product2, product3, product4, product5, product6, product7, product8 } from '../assets'
 
 export const header = {
     logo: {
@@ -37,3 +39,37 @@ export const collection = [
     {img: chair2, link: 'armchair'},
     {img: couch, link: 'couch'}
 ]
+
+export const shop = {
+    title1: "we are very proud to present you",
+    title2: "our furniture",
+    desc: "Quality is the easiest way to make beautiful products.",
+    images: [
+        [
+            { img: furn1, title: "White Chair" },
+            { img: furn2, title: "Blue Chair" }
+        ],
+        [
+            { img: furn3, title: "Black Chair" },
+            { img: furn4, title: "White lamp" }
+        ]
+    ],
+    span: "Furniture",
+    link: "Shop Now",
+    image2: [{ img: furn6, title: "Brown Chair" }]
+};
+
+export const features = {
+  desc: "browse our items",
+  title: "Ideal for your home",
+  images: [
+    { img: product1, title: "White Vase", price: "$44.00", article: "decoration" },
+    { img: product2, title: "Neon Light", price: "$16.00", article: "lighting" },
+    { img: product3, title: "Gray Chair", price: "$53.00", article: "furniture" },
+    { img: product4, title: "Cup Holder", price: "$19.00", article: "decoration" },
+    { img: product5, title: "White Vase", price: "$44.00", article: "decoration" },
+    { img: product6, title: "Gray Sofa", price: "$165.00", article: "furniture" },
+    { img: product7, title: "Baby Chair", price: "$122.00", article: "furniture" },
+    { img: product8, title: "Read Chair", price: "$115.00", article: "furniture" },
+  ],
+};

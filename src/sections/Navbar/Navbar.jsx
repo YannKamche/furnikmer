@@ -48,7 +48,7 @@ const Navbar = () => {
   return (
     <header id="header" ref={navbarRef}>
       <div className='logo'>
-        <a href="#"><img src={header.logo.img} id={header.logo.id} alt="" />furniKmer</a>
+        <a href="#" className='flex gap-3'><img src={header.logo.img} id={header.logo.id} alt="" />furniKmer</a>
       </div>
       <ul className='navigation'>
         {

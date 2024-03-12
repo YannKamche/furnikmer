@@ -19,7 +19,7 @@ header .logo a{
     font-family: 'Fenix', serif;
 }
 header .logo img{
-    width: 30px;
+    width: 50px;
     margin-top: -5px;
 }
 header ul{
@@ -43,6 +43,7 @@ header ul li a:hover{
 
 header .bars{
     display: none;
+    margin-right: 6px;
 }
 header .bars img{
     width: 30px;
@@ -92,11 +93,14 @@ header.active #bar{
     header .bars{
         display: block;
     }
+    header{
+        padding: 13px 30px;
+    }
 }
 
 @media(max-width: 576px){
     header{
-        padding: 13px 30px;
+        padding: 13px 15px;
     }
     header .navigation.new{
         width: 100%;
