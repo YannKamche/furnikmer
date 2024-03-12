@@ -6,8 +6,8 @@ const Features = () => {
   return (
     <div className='big-product' id='features'>
       <div className='product-title'>
-        <p>{features.title}</p>
-        <h2>{ features.title}</h2>
+        <p>{features.desc}</p>
+        <h2 className='text-3xl'>{ features.title}</h2>
       </div>
 
       <div className='product-flex'>

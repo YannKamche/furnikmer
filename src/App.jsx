@@ -5,6 +5,7 @@ import Collection from './sections/Collection/Collection'
 import Shop from './sections/Shop/Shop'
 import { shop } from './constants/constants'
 import Features from './sections/Features/Features'
+import Arrival from './sections/Arrival/Arrival'
 const App = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const App = () => {
       <Collection />
       <Shop shop={shop} />
       <Features />
+      <Arrival />
     </>
   )
 }

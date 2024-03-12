@@ -2,6 +2,7 @@ import { bulb, menu } from '../assets'
 import { chair4, chair5, chair3, chair2, couch, bed } from '../assets'
 import { furn1, furn2, furn3, furn4, furn5, furn6 } from '../assets'
 import { product1, product2, product3, product4, product5, product6, product7, product8 } from '../assets'
+import { bg_image, plus } from '../assets'
 
 export const header = {
     logo: {
@@ -73,3 +74,15 @@ export const features = {
     { img: product8, title: "Read Chair", price: "$115.00", article: "furniture" },
   ],
 };
+
+export const arrival = {
+    title: 'Discover our furnitures from our',
+    title2: 'resources',
+    desc: 'View our everyday amazing products',
+    img1: bg_image,
+    img2: plus,
+    img3: product6,
+    title3: 'New Couch',
+    desc2: 'take our furniture with perfect quality and price',
+    link: 'shop now'
+}
