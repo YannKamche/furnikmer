@@ -6,6 +6,11 @@ import Shop from './sections/Shop/Shop'
 import { shop } from './constants/constants'
 import Features from './sections/Features/Features'
 import Arrival from './sections/Arrival/Arrival'
+import Animation from './sections/Animation/Animation'
+import Contact from './sections/Contact/Contact'
+import Team from './sections/Team/Team'
+import Footer from './sections/Footer/Footer'
+import Scroll from './components/Scroll'
 const App = () => {
   return (
     <>
@@ -15,6 +20,11 @@ const App = () => {
       <Shop shop={shop} />
       <Features />
       <Arrival />
+      <Animation />
+      <Team />
+      <Contact />
+      <Footer />
+      <Scroll />
     </>
   )
 }

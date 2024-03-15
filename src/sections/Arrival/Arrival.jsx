@@ -1,19 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import "./Arrival.css";
 import { arrival } from "../../constants/constants";
 
 const Arrival = () => {
-  useEffect(() => {
-    const myFun = () => {
-      let plus = document.querySelector(".plus");
-      let textBox = document.querySelector(".text-box");
-      plus.onclick = () => {
-        textBox.classList.toggle("active");
-        plus.classList.toggle("img_active");
-      };
-    };
-    myFun();
-  }, []);
+  const [isActive, setIsActive] = useState(false);
+
+  const handleToggle = () => {
+    setIsActive(!isActive);
+  };
 
   return (
     <div className="big-furn" id="new-arrival">
@@ -27,8 +21,13 @@ const Arrival = () => {
       <div className="big-part">
         <img src={arrival.img1} alt="" />
         <div className="text-inside">
-          <img src={arrival.img2} alt="" className="plus" />
-          <div className="text-box">
+          <img
+            src={arrival.img2}
+            alt=""
+            className={`plus ${isActive ? "img_active" : ""}`}
+            onClick={handleToggle}
+          />
+          <div className={`text-box ${isActive ? "active" : ""}`}>
             <div>
               <img src={arrival.img3} alt="" />
             </div>

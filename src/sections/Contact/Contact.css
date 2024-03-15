@@ -2,6 +2,7 @@
 .footer-image{
     display: flex;
     flex-wrap: wrap;
+    padding: 2rem;
 }
 .footer-image .image1{
     width: 16.6%;

@@ -1,4 +1,4 @@
-import { bulb, menu } from '../assets'
+import { bulb, footer1, footer2, footer3, footer4, footer5, footer6, footer_logo, furniture, menu, play, right_chevron, team1, team2, team3, team4, team6, team7, x } from '../assets'
 import { chair4, chair5, chair3, chair2, couch, bed } from '../assets'
 import { furn1, furn2, furn3, furn4, furn5, furn6 } from '../assets'
 import { product1, product2, product3, product4, product5, product6, product7, product8 } from '../assets'
@@ -86,3 +86,57 @@ export const arrival = {
     desc2: 'take our furniture with perfect quality and price',
     link: 'shop now'
 }
+
+export const animation = {
+    right_chevron: right_chevron,
+    x: x,
+    video: furniture,
+    play: play
+}
+
+export const footerImage = [
+    footer1, 
+    footer2, 
+    footer3,
+    footer4, 
+    footer5, 
+    footer6
+]
+
+export const team = [
+    team1,
+    team2,
+    team3,
+    team4,
+    team6, team7
+]
+export const footer = {
+  title: "furniture",
+  section:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem eius labore commodi illum autem asperiores doloribus praesentium non ut.",
+  links: [
+    {
+      title: "helfpful",
+      links: [
+        "about us",
+        "our blog",
+        "visit site",
+        "contact us",
+        "apply a job",
+      ],
+    },
+    {
+      title: "shopping",
+      links: [
+        "online cards",
+        "return policy",
+        "privacy policy",
+        "shipping",
+        "inventory",
+      ],
+    },
+  ],
+    title2: "payment method",
+    section2: " select one of the most common ways to pay a money for our products.",
+    image: footer_logo,
+};
