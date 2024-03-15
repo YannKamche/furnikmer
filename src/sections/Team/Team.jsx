@@ -11,7 +11,8 @@ const Team = () => {
         <h2 className="text-3xl">Meet Our Team</h2>
         <hr />
       </div>
-      <Slider images={team} />
+        <Slider images={team} />
+      
     </div>
   );
 };

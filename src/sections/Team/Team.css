@@ -25,16 +25,16 @@
 }
 .bg-team .team-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-;
     align-items: center;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     margin-top: -360px;
     margin-bottom: 100px;
 }
 .team-flex .team-one{
-    width: 32%;
+    width: 82%;
 }
 .team-flex .team-one img{
     width: 100%;
